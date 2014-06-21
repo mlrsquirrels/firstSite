@@ -1,0 +1,36 @@
+﻿body{
+    background-color:aqua;
+}
+
+#title{
+    text-align:center;
+}
+
+li{
+    float:left;
+    list-style-type:none;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    text-align:center;
+    color:black;
+    width:100px;
+    height:50px;
+    transition: background-color 0.5s, color 0.5s;
+    border-radius:20px;
+
+}
+
+li:hover {
+    background-color: black;
+    color: white;
+}
+
+
+#sideBar {
+    float:left;
+    background-color:forestgreen;
+    width:100px;
+    height:500px;
+}
+
